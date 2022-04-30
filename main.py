@@ -10,7 +10,7 @@ async def get_produtos_vendidos(numeros: str):
     lista_numeros = transforma_em_lista_numeros_get(numeros)
     tabela = tabela_dos_numeros(lista_numeros)
     possiveis_numeros = numeros_escolhidos(lista_numeros)
-    return possiveis_numeros, tabela
+    return possiveis_numeros
 
 @app.get("/tabela_do_esquema/{numeros}", response_class=HTMLResponse)
 async def tabela_do_esquema(numeros: str):
