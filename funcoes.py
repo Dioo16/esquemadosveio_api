@@ -426,6 +426,6 @@ def tabela_dos_numeros(numeros):
             cont += 1
             tabela_numeros += str(elemento) + ''' '''
             if cont == 6:
-                tabela_numeros += '<br>'
+                tabela_numeros += '\n'
     
     return tabela_numeros
