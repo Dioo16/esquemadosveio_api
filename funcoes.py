@@ -419,7 +419,7 @@ def transforma_em_lista_numeros_get(numeros):
 
 def tabela_dos_numeros(numeros):
     esquema_formado = cria_base_de_numeros(numeros)
-    tabela_numeros = ''' ''' 
+    tabela_numeros = '''''' 
     for lista in esquema_formado:
         cont = 0
         for elemento in lista:
